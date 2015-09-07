@@ -7,15 +7,12 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta http-equiv="refresh" content="30">
 <style>
-html,
-body { font-family: sans-serif; }
-.busy { color: red; }
-.free { color: green; }
+html, body { font-family: sans-serif; }
 </style>
 </head>
 <body>
 
-<h3 class="{?inUse}busy{:else}free{/inUse}">
+<h3 style="color: {?inUse}red{:else}green{/inUse};">
   Laundry Room {?inUse}Busy{:else}Free{/inUse}
 </h3>
 Last Used: {lastUsed}
