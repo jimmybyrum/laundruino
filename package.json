@@ -1,0 +1,18 @@
+{
+  "name": "Laundruino",
+  "version": "0.1.0",
+  "description": "Server to Arduino Laundry Device",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jimmybyrum/laundruino.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "author": "James Byrum <me@jimmybyrum.com>",
+  "dependencies": {
+    "dustjs-linkedin": "^2.7.2",
+    "hapi": "^9.3.0"
+  }
+}

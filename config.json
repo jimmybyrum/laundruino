@@ -1,0 +1,12 @@
+{
+  "HTTP": {
+    "protocol": "http:",
+    "host": "localhost",
+    "port": 8080
+  },
+  "WEB": {
+    "protocol": "http:",
+    "host": "laundruino.local",
+    "port": 80
+  }
+}

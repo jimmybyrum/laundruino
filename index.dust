@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Laundry Room Status</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="refresh" content="30">
+<style>
+html,
+body { font-family: sans-serif; }
+.busy { color: red; }
+.free { color: green; }
+</style>
+</head>
+<body>
+
+<h3 class="{?inUse}busy{:else}free{/inUse}">
+  Laundry Room {?inUse}Busy{:else}Free{/inUse}
+</h3>
+Last Used: {lastUsed}
+
+</body>
+</html>
