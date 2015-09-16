@@ -17,5 +17,8 @@ html, body { font-family: sans-serif; }
 </h3>
 Last Used: {lastUsed}
 
+<script>
+console.log({.|js|s});
+</script>
 </body>
 </html>

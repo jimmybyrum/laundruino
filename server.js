@@ -5,7 +5,7 @@ var Hapi = require('hapi');
 var config = require('./config.json');
 var dust = require('dustjs-linkedin');
 
-var src = fs.readFileSync('./index.dust', 'utf8');
+var src = fs.readFileSync(__dirname + '/./index.dust', 'utf8');
 var compiled = dust.compile(src, 'index');
 dust.loadSource(compiled);
 
