@@ -47,7 +47,7 @@ function render(request, reply) {
 }
 
 function setData(request, reply) {
-  data.current = request.params.gyro;
+  data.current = +request.params.gyro;
   data.inUse = data.current >= data.threshold;
   if (data.inUse) {
     data.lastUsed = new Date();
