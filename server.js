@@ -12,7 +12,7 @@ dust.loadSource(compiled);
 var data = {
   inUse: false,
   current: 0,
-  threshold: 100,
+  threshold: config.threshold,
   lastUsed: new Date()
 };
 
